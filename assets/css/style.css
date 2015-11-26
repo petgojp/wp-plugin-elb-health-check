@@ -1,0 +1,9 @@
+.elb-health-check__process--to-add {
+	padding: 5px;
+}
+.elb-health-check__process--to-add a.button {
+	margin-top: 3px;
+}
+.elb-health-check__process--to-display {
+	padding: 5px;
+}
