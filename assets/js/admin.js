@@ -12,7 +12,7 @@
 		var num = allocateNewIdNum();
 		var html = '<li id="' + num + '" class="elb-health-check__process--to-display">';
 		html += '<input type="text" name="process-to-add-' + num + '" value="' + $textToAdd.val() + '" />';
-		html += '<a href="#" onClick="test(event)">削除</a>';
+		html += '<a href="#" onClick="removeClickedParent(event)">削除</a>';
 		html += '</li>';
 
 		$ulProcesses.append(html);
@@ -35,7 +35,7 @@
 
 })(jQuery);
 
-function test(event){
+function removeClickedParent(event){
 	(function($){
 
 		var $aClicked = $(event.target);
