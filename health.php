@@ -1,6 +1,6 @@
 <?php
 
-require_once( dirname( dirname( dirname( dirname( __FILE__ ) ) ) ) . '/wp-blog-header.php' );
+require_once( dirname( dirname( dirname( dirname( __FILE__ ) ) ) ) . '/wp-config.php' );
 
 $processes = get_option( 'elb-health-check-processes' );
 foreach ( $processes as $process ) {
